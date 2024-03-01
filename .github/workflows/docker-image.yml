@@ -29,6 +29,6 @@ jobs:
         docker buildx build -t merxxaz/docker-graphql:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push merxxaz/docker-graphql:0.0.2 .
+        docker push merxxaz/docker-graphql:0.0.1 .
     # - name: Build the Docker image
       # run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
